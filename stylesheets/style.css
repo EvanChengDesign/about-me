@@ -1,21 +1,60 @@
-body {
-    background: black;
+header {
+        background-color: rgb(241, 241, 241);
+        color: #202020;
+
 }
+
+header h1 { 
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+nav {background-color: #202020;
+
+}
+a {
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+body {
+    background: #161616;
+}
+
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkslategrey;
+    background-color: rgb(26, 28, 28);
 }
-li {
-    float: left;
+
+section {
+    border: 1px solid ;
+}
+
+section img {
+    padding: 10px;
+}
+h3 li {
+    color: aliceblue;
+    display: inline-block;
+
+}
+nav li {
+    padding: 8px;
+    font-size: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    
+    
 }
 
 li a {
-    display: block;
-    color: antiquewhite;
+    display: inline;
+    color: rgb(241, 241, 241);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
