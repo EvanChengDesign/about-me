@@ -73,3 +73,13 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+
+footer {
+    background-color: #202020;
+}
+footer h3 {
+    text-align: center;
+    color: rgb(241, 241, 241);
+
+}
