@@ -34,9 +34,6 @@ nav ul {
     background-color: rgb(26, 28, 28);
 }
 
-section {
-   
-}
 
 section p {
     color: aliceblue;
@@ -44,8 +41,15 @@ section p {
 }
 
 section img {
+    max-width: 50%;
+    display: flex;
     align-content: center;
     padding: 10px;
+}
+
+section div {
+    flex: 1;
+    padding: 0 20px;
 }
 
 section h3 li {
