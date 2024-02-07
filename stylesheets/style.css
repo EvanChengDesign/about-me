@@ -11,7 +11,9 @@ header h1 {
     
 }
 
-nav {background-color: #202020;
+nav {
+    margin: auto;
+    background-color: #202020;
 
 }
 a {
@@ -19,7 +21,7 @@ a {
     text-align: center;
 }
 body {
-    background: #161616;
+    background: #6c6c6c;
 }
 
 
@@ -32,21 +34,30 @@ ul {
 }
 
 section {
-    border: 1px solid ;
+   
+}
+
+section p {
+    color: aliceblue;
+    margin-left: 10px;
 }
 
 section img {
+    align-content: center;
     padding: 10px;
 }
-h3 li {
+
+section h3 li {
+    padding: 10px;
     color: aliceblue;
-    display: inline-block;
+    display: inline;
+    ;
 
 }
 nav li {
     padding: 8px;
     font-size: 10px;
-    margin-right: 10px;
+    margin: auto;
     display: inline-block;
     
     
