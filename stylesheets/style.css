@@ -7,6 +7,7 @@ header {
 header h1 { 
     text-align: center;
     padding-top: 10px;
+    color: rgb(35, 35, 35);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -16,16 +17,16 @@ nav {
     background-color: #202020;
 
 }
-a {
-    color: rgb(241, 241, 241);
-    text-align: center;
-}
+
 body {
     background: #6c6c6c;
 }
 
 
-ul {
+nav ul {
+    
+    color: rgb(241, 241, 241);
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
