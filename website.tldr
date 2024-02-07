@@ -66,9 +66,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 167.0859375,
-			"y": 1057.328125,
-			"lastActivityTimestamp": 1707267643038,
+			"x": 794.7890625,
+			"y": 263.390625,
+			"lastActivityTimestamp": 1707268712948,
 			"meta": {}
 		},
 		{
@@ -79,18 +79,20 @@
 			"typeName": "page"
 		},
 		{
-			"x": 273.3984375,
-			"y": 0,
+			"x": 121.3984375,
+			"y": -18,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:CGmNhTiqPtt1euZQi35bf",
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
+			"selectedShapeIds": [
+				"shape:CGmNhTiqPtt1euZQi35bf"
+			],
+			"hoveredShapeId": "shape:CGmNhTiqPtt1euZQi35bf",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -103,7 +105,7 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:color": "light-violet",
+				"tldraw:color": "black",
 				"tldraw:fill": "none",
 				"tldraw:size": "s",
 				"tldraw:dash": "solid",
@@ -885,6 +887,58 @@
 			},
 			"parentId": "page:page",
 			"index": "aM",
+			"typeName": "shape"
+		},
+		{
+			"x": -111.2265625,
+			"y": 366.140625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vb9xhjJltv7vV9ybUy6kQ",
+			"type": "geo",
+			"props": {
+				"w": 334.3203125,
+				"h": 562.72265625,
+				"geo": "rectangle",
+				"color": "light-violet",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "solid",
+				"size": "s",
+				"font": "draw",
+				"text": "",
+				"align": "start",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": ""
+			},
+			"parentId": "page:page",
+			"index": "aN",
+			"typeName": "shape"
+		},
+		{
+			"x": -98,
+			"y": 654.5234375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:E-hKIfVgAVPPoNQhYGoKu",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 148.03125,
+				"text": "<main></main>",
+				"font": "draw",
+				"align": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aO",
 			"typeName": "shape"
 		}
 	]
