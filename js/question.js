@@ -3,13 +3,22 @@ let selectedOption = "";
 
 // Function to select the option and highlight the button
 function selectOption(optionId) {
-    // Remove highlighting from previously selected button, if any
-    if (selectedOption) {
-        document.getElementById(selectedOption).classList.remove("selected");
+    const selectedButton = document.getElementById(optionId);
+    
+    // Toggle selection status of the option
+    if (selectedOption === optionId) {
+        // If the option is already selected, unselect it
+        selectedButton.classList.remove("selected");
+        selectedOption = ""; // Clear selected option
+    } else {
+        // Remove highlighting from previously selected button, if any
+        if (selectedOption) {
+            document.getElementById(selectedOption).classList.remove("selected");
+        }
+        // Highlight the selected button
+        selectedButton.classList.add("selected");
+        selectedOption = optionId; // Update the selected option
     }
-    // Highlight the selected button
-    document.getElementById(optionId).classList.add("selected");
-    selectedOption = optionId; // Update the selected option
 }
 
 // Function to submit the choice
@@ -30,4 +39,3 @@ function appendAnswer(answer) {
     listItem.textContent = answer;
     answersList.appendChild(listItem);
 }
-
