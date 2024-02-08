@@ -25,7 +25,7 @@ nav {
 nav li {
     padding: 8px;
     font-size: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     display: inline-block;
     
@@ -46,10 +46,22 @@ nav ul {
 }
 
 nav ul a:hover {
+    
     background-color: #f9ae00;
-    color:rgb(241, 241, 241);
+    color:rgb(36, 36, 36);
 }
 
+section h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(241, 241, 241);
+    
+}
+
+section script PopUp.js {
+    text-align: center;
+    color: rgb(241, 241, 241);
+}
 .image-text-section {
     padding-top: 10px;
     display: flex;
@@ -60,24 +72,22 @@ nav ul a:hover {
     max-width: 25%;
     margin-right: 20px;
 }
-/* section {
-    display: flex;
-} */
+
 .text-block {
     flex: 1;
    
 }
 
-.text-block a {
-    
-}
-
 .text-block h3 { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
     margin-top: 0;
     color:rgb(241, 241, 241);
 }
 
 .text-block p {
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 0;
     list-style-type: none;
     color: rgb(241, 241, 241);
@@ -106,6 +116,7 @@ footer {
 }
 footer h3 {
     color: rgb(241, 241, 241);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }

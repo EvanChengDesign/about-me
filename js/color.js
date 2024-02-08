@@ -1,3 +1,5 @@
-let color = prompt("what is your favorite color?");
+// Prompt the user for their favorite color
+const favoriteColor = prompt("What is your favorite color?");
 
-document.write("cool ")
+// Display a response using document.write
+document.write("Your favorite color is: " + favoriteColor);
