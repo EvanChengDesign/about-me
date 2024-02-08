@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./stylesheets/style.css">
+        <link rel="stylesheet" href="/stylesheets/about-style.css">
         <title>All About Me</title>
     </head>
     <body>
@@ -16,3 +16,21 @@
                     </ul>
                 </nav> 
         </header>
+    <main>
+        <h2>WHAT IS YOUR FAVORITE MARKUP LANGUAGE</h2>
+        <div class="container">
+            <div class="button-container">
+                <button id="jsBtn" onclick="selectOption('jsBtn')">JavaScript</button>
+                <button id="mrkBtn" onclick="selectOption('mrkBtn')">Markdown</button>
+                <button id="htmlBtn" onclick="selectOption('htmlBtn')">HTML</button>
+            </div>
+            <br>
+            <button onclick="submitChoice()">Submit</button>
+            <p id="choice"></p>
+        </div>
+    
+        <ul id="answersList"></ul>
+        <script src="./js/question.js"></script>     
+    </main>
+    </body>
+</html>
