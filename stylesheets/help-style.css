@@ -1,0 +1,101 @@
+header {
+    background-color: rgb(241, 241, 241);
+    color: #202020;
+
+}
+
+header h1 { 
+text-align: center;
+padding-top: 10px;
+color: rgb(35, 35, 35);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+background: #6c6c6c;
+}
+
+nav {
+margin: auto;
+background-color: #202020;
+
+}
+
+nav li {
+padding: 8px;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+display: inline-block;
+
+
+}
+
+nav ul {
+
+color: rgb(241, 241, 241);
+font-weight: 300;
+text-align: center;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(26, 28, 28);
+
+}
+
+nav ul a:hover {
+
+background-color: #f9ae00;
+color:rgb(36, 36, 36);
+
+}
+
+li a {
+    list-style-type: none;
+    display: inline;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*anything above copy for other css pages*/
+
+.button-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+button {
+    background-color: #f9ae00;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.assist-message {
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.alright-message {
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+
+}

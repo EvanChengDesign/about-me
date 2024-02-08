@@ -4,8 +4,9 @@ function askForHelp() {
     let helpMessage = document.getElementById("helpMessage");
 
     if (needHelp) {
-        helpMessage.textContent = "We're here to assist you!";
+        helpMessage.innerHTML = "<p class='assist-message'>We're here to assist you!</p>";
     } else {
-        helpMessage.textContent = "Alright, feel free to reach out if you change your mind.";
+        helpMessage.innerHTML = "<p class='alright-message'>Alright, feel free to reach out if you change your mind.</p>";
     }
 }
+
