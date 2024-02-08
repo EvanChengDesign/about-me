@@ -58,10 +58,15 @@ section h1 {
     
 }
 
-section script PopUp.js {
-    text-align: center;
-    color: rgb(241, 241, 241);
+.welcome-message {
+    text-align: center; 
+    font-weight: bold;
+    padding: 2px;
+    color: rgb(31, 31, 31);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9ae00;
 }
+
 .image-text-section {
     padding-top: 10px;
     display: flex;
