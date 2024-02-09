@@ -1,29 +1,28 @@
-// Function to validate a number input
-function validateNumberInput(promptMessage) {
-    let userInput;
-    do {
-        userInput = prompt(promptMessage);
-        if (!userInput || isNaN(userInput)) {
-            alert("Please enter a valid number.");
-        }
-    } while (!userInput || isNaN(userInput));
-    return parseInt(userInput);
+// Function to display an image related to the page's topic
+function displayImage() {
+    let imageContainer = document.getElementById("imageContainer");
+    let image = document.createElement("img");
+    image.src = "./assets/pizza-slice.png"; // Replace "image.jpg" with the path to your image
+    image.alt = "Pizza Slice";
+    imageContainer.appendChild(image);
 }
 
-// Prompt the user for a relevant question
-let numPizzaPieces = validateNumberInput("How many pieces of pizza could you eat? Enter a number:");
+// Function to prompt the user with a relevant question for a number
+function askForNumber() {
+    return parseInt(prompt("HOW MANY SLICES OF PIZZA DO YOU WANT?"));
+}
 
-// Function to display the image
-function displayImage(imageUrl, repeatTimes) {
-    let imageContainer = document.getElementById("image-container");
-    imageContainer.innerHTML = ""; // Clear existing images
-    for (let i = 0; i < repeatTimes; i++) {
-        let imageElement = document.createElement("img");
-        imageElement.src = imageUrl;
-        imageElement.alt = "Pizza-slice.png";
-        imageContainer.appendChild(imageElement);
+// Function to repeat the image based on the user's input
+function repeatImage(numTimes) {
+    for (let i = 0; i < numTimes; i++) {
+        displayImage();
     }
 }
 
-// Call the function to display the image multiple times
-displayImage("./assets/pizza-slice.png", numPizzaPieces);
+// Call the functions in sequence
+let numberOfRepeats = askForNumber();
+if (!isNaN(numberOfRepeats)) {
+    repeatImage(numberOfRepeats);
+} else {
+    alert("Please enter a valid number.");
+}

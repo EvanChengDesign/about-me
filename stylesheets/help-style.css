@@ -107,7 +107,7 @@ button {
 }
 
 img {
-            width: 150px;
-            height: 150px;
-            margin: 5px;
-        }
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
