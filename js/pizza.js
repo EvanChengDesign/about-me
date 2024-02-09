@@ -8,8 +8,8 @@ function displayImage() {
 }
 
 // Function to prompt the user with a relevant question for a number
-function askForNumber() {
-    return parseInt(prompt("HOW MANY SLICES OF PIZZA DO YOU WANT?"));
+function askForNumber(question) {
+    return parseInt(prompt(question));
 }
 
 // Function to repeat the image based on the user's input
@@ -19,10 +19,20 @@ function repeatImage(numTimes) {
     }
 }
 
-// Call the functions in sequence
-let numberOfRepeats = askForNumber();
-if (!isNaN(numberOfRepeats)) {
-    repeatImage(numberOfRepeats);
+// Function to handle adding more slices
+function addMoreSlices() {
+    let additionalSlices = askForNumber("How many more slices would you like?");
+    if (!isNaN(additionalSlices)) {
+        repeatImage(additionalSlices);
+    } else {
+        alert("Please enter a valid number.");
+    }
+}
+
+// Call the functions to initially display the image
+let initialSlices = askForNumber("How many slices do you want?");
+if (!isNaN(initialSlices)) {
+    repeatImage(initialSlices);
 } else {
     alert("Please enter a valid number.");
 }
