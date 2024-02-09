@@ -1,9 +1,12 @@
 // Function to display an image related to the page's topic
+// let imageContainer = document.getElementById("image-container");
+
 function displayImage() {
-    let imageContainer = document.getElementById("imageContainer");
+    let imageContainer = document.getElementById("image-container");   
     let image = document.createElement("img");
     image.src = "./assets/pizza-slice.png"; // Replace "image.jpg" with the path to your image
     image.alt = "Pizza Slice";
+    console.log(image);
     imageContainer.appendChild(image);
 }
 
@@ -30,9 +33,20 @@ function addMoreSlices() {
 }
 
 // Call the functions to initially display the image
+function initialSlices(){
 let initialSlices = askForNumber("How many slices do you want?");
 if (!isNaN(initialSlices)) {
-    repeatImage(initialSlices);
+   // repeatImage(initialSlices);
+   for (let i = 0; i < initialSlices; i++) {
+    let imageContainer2 = document.getElementById("image-container2");   
+    let image = document.createElement("img");
+    image.src = "./assets/pizza-slice.png"; // Replace "image.jpg" with the path to your image
+    image.alt = "Pizza Slice";
+    console.log(image);
+    imageContainer2.appendChild(image);
+}
 } else {
     alert("Please enter a valid number.");
 }
+}
+initialSlices();
