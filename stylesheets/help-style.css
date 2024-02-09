@@ -101,6 +101,7 @@ button {
 }
 
 #image-container {
+            align-items: center;
             display: flex;
             flex-wrap: wrap;
 }
@@ -114,6 +115,7 @@ h1 {
 }
 
 img {
+    align-content: center;
     width: 200px;
     height: auto;
     margin: 10px;

@@ -5,8 +5,7 @@ function displayImage() {
     let imageContainer = document.getElementById("image-container");   
     let image = document.createElement("img");
     image.src = "./assets/pizza-slice.png"; // Replace "image.jpg" with the path to your image
-    image.alt = "Pizza Slice";
-    console.log(image);
+    image.alt = "Pizza Slice"; 
     imageContainer.appendChild(image);
 }
 
