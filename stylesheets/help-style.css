@@ -99,17 +99,10 @@ button {
     text-align: center;
 
 }
- /* Add some basic styling */
 
 #image-container {
             display: flex;
             flex-wrap: wrap;
-}
-
-img {
-    width: 200px;
-    height: auto;
-    margin: 10px;
 }
 
 h1 {
