@@ -26,4 +26,4 @@ function displayImage(imageUrl, repeatTimes) {
 }
 
 // Call the function to display the image multiple times
-displayImage("pizza-slice.png", numPizzaPieces);
+displayImage("./assets/pizza-slice.png", numPizzaPieces);
